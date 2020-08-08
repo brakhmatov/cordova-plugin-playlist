@@ -8,7 +8,7 @@
 
 #import "MainViewController+RmxAudioPlayer.h"
 
-@implementation MainViewController (RmxAudioPlayer)
+@implementation CDVViewController (RmxAudioPlayer)
 
 #pragma mark - audio session management
 // supposedly this is no longer necessary. but what about old iOS versions?

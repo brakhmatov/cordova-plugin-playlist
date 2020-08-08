@@ -9,7 +9,7 @@
 
 #import "MainViewController.h"
 
-@interface MainViewController (RmxAudioPlayer)
+@interface CDVViewController (RmxAudioPlayer)
 
 @end
 

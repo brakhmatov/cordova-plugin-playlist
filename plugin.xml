@@ -108,12 +108,12 @@
 		<header-file src="src/ios/AudioTrack.h" />
     <header-file src="src/ios/AVBidirectionalQueuePlayer.h" />
     <header-file src="src/ios/Constants.h" />
-		<header-file src="src/ios/MainViewController+RmxAudioPlayer.h" />
+		<header-file src="src/ios/CDVViewController+RmxAudioPlayer.h" />
 		<header-file src="src/ios/RmxAudioPlayer.h" />
 
 		<source-file src="src/ios/AudioTrack.m" />
     <source-file src="src/ios/AVBidirectionalQueuePlayer.m" />
-		<source-file src="src/ios/MainViewController+RmxAudioPlayer.m" />
+		<source-file src="src/ios/CDVViewController+RmxAudioPlayer.m" />
 		<source-file src="src/ios/RmxAudioPlayer.m" />
 	</platform>
 

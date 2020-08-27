@@ -109,6 +109,10 @@
         [self seekToTime:kCMTimeZero toleranceBefore:kCMTimeZero toleranceAfter:kCMTimeZero];
         // [self play];
         self.rate = currentrate;
+    } else if ([self isAtEnd]) {
+        [self setCurrentIndex:[_itemsForPlayer count] - 1];
+        [self seekToTime:kCMTimeZero toleranceBefore:kCMTimeZero toleranceAfter:kCMTimeZero];
+        [super play];
     }
 }
 

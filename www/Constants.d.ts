@@ -113,7 +113,8 @@ export declare enum RmxAudioStatusMessage {
      * The entire playlist has completed playback.
      * After this event has been raised, the current item is set to null and the current index to -1.
      */
-    RMXSTATUS_PLAYLIST_COMPLETED = 105,
+    
+     RMXSTATUS_PLAYLIST_COMPLETED = 105,
     /**
      * An item has been added to the playlist. For the setPlaylistItems and addAllItems methods, this status is
      * raised once for every track in the collection.
